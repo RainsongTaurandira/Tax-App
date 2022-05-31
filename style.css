@@ -1,0 +1,42 @@
+:root {
+    --background-color: beige;
+    --text-color: midnightblue;
+    --accent-color: teal;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--accent-color);
+}
+.wrapper {
+    width: 60%;
+    margin: 4rem auto;
+    padding: 2rem;
+    
+    border-radius: 10px;
+    border: 3px solid var(--text-color);
+
+    background-color: var(--background-color);
+    color: var(--text-color)
+}
+
+button {
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+button:hover {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    scale: 1.1;
+    box-shadow: .2rem .2rem .5rem var(--accent-color);
+}
+
+.output {
+    margin-top: 2rem;
+}
