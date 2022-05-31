@@ -1,2 +1,3 @@
 # Tax App
- tiny app to handle some finance documentation
+ A tiny app to handle some finance documentation.
+ HTML, CSS, and vanilla JavaScript.
