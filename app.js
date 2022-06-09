@@ -10,7 +10,7 @@ button.addEventListener("click", function(){
     //need to force it out of concatination using parseInt or parseFloat
     
     let taxBit = (tax*0.67).toFixed(2);
-    let final = total - taxBit;
+    let final = (total - taxBit).toFixed(2);
 
     let temp = `<p>On an invoice of <b>$${subtotal2}</b> <br> 
     The HST is <b>$${tax}</b> <br> 
