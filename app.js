@@ -4,7 +4,7 @@ const subtotal = document.querySelector("input");
 
 
 button.addEventListener("click", function(){
-    let subtotal2 = subtotal.value;
+    let subtotal2 = subtotal.value.toFixed(2);
     let tax = (subtotal2*0.15).toFixed(2);
     let total = (parseInt(tax) + parseInt(subtotal2)).toFixed(2);
     //need to force it out of concatination using parseInt or parseFloat
